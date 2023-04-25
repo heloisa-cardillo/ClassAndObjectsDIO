@@ -1,0 +1,5 @@
+package dioBank
+
+class Pessoa {
+
+}
