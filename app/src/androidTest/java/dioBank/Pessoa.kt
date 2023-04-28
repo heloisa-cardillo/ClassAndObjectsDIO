@@ -7,6 +7,7 @@ class Pessoa {
     //set = funcao que atribui valor a propriedade
     //usa private set para fazer um atributo privado/ alterar a visibilidade
     //modificadores de visibilidade influenciam no geral em propriedades var
+    // so quem ta dentro da classe pessoa pode alterar cpf
 
     constructor()
 

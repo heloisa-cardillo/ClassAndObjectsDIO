@@ -9,10 +9,12 @@ fun main(){
     val dioBanco = Banco("DIO", 12)
     //se eu disse para quem estou atribuindo (escrever nome e numero em vez de autocompletar), pode alterar a ordem. Caso contrario nao
     //numero: 12, nome:"DIO"
+    //pega so as propriedades, mas se nao alterar o valor/palavras manualmente permanece o mesmo
     println(dioBanco.nome)
     println(dioBanco.numero)
 
-    val dioBanco2 =dioBanco.copy("DIO2",12)
+    val dioBanco2 =dioBanco.copy("DIO2")
+    // //pega so as propriedades, mas se nao alterar o valor/palavras manualmente permanece o mesmo
     println(dioBanco2.nome)
     println(dioBanco2.numero)
     //copy= copia o objeto/funcao mas podendo alterar as informacoes
